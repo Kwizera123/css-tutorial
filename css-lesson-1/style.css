@@ -1,0 +1,15 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: darkgreen;
+  font-size: 40px;
+}
+p{
+  color: black;
+  font-size:18px ;
+}
+.info {
+    color: orange;
+    font-weight: bold;
+}
