@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+   font-family: arial, sans-serif;
+}
+.card {
+  background: white;
+  width: 320px;
+
+  padding: 50px; /* inside space*/
+  margin: 50px auto; /* outside space*/
+  
+  border: 5px solid #4facfe;
+
+  border-radius: 10px;
+  text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+p {
+   color: #666; 
+}
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #00c6ff;
+}
+
+.card {
+  transition: 0.3s;
+}
+.card {
+  transform: scale(1.05);
+}
